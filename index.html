@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rede Segura — Denúncia Imediata</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  background:#faf7fc;color:#24202a;line-height:1.6;
+}
+header{
+  background:linear-gradient(135deg,#54208d,#7d3db3);
+  color:white;padding:18px 7%;position:sticky;top:0;z-index:10;
+  box-shadow:0 3px 14px #0002;
+}
+.nav{max-width:1150px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-size:1.35rem;font-weight:800}
+nav a{color:white;text-decoration:none;margin-left:20px;font-weight:700;font-size:.95rem}
+.hero{
+  max-width:1150px;margin:0 auto;padding:70px 7% 60px;
+  display:grid;grid-template-columns:1fr 420px;gap:55px;align-items:center;
+}
+.badge{display:inline-block;background:#eadcf7;color:#5d258c;padding:7px 13px;border-radius:30px;font-weight:800;margin-bottom:18px}
+h1{font-size:clamp(2.2rem,5vw,4.1rem);line-height:1.05;margin-bottom:20px;color:#3f1766}
+.hero p{font-size:1.12rem;color:#514b57;max-width:650px}
+.btn{
+  display:inline-block;margin-top:25px;background:#6c2aa3;color:white;text-decoration:none;
+  padding:13px 20px;border-radius:12px;font-weight:800;box-shadow:0 5px 15px #6c2aa344;
+}
+.phone{width:100%;border-radius:28px;box-shadow:0 15px 35px #34134d33}
+section{padding:65px 7%}
+.section-inner{max-width:1150px;margin:auto}
+.title{text-align:center;color:#3f1766;font-size:2rem;margin-bottom:12px}
+.subtitle{text-align:center;max-width:760px;margin:0 auto 38px;color:#625b68}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.card{
+ background:white;border-radius:18px;padding:27px;border:1px solid #eadff1;
+ box-shadow:0 7px 22px #4320500d;
+}
+.icon{font-size:2rem;margin-bottom:8px}
+.card h3{color:#5b2588;margin-bottom:8px;font-size:1.25rem}
+.card p{color:#57515c}
+.highlight{background:#f0e6f8}
+.how{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.step{text-align:center;background:white;border-radius:18px;padding:25px;border:1px solid #eadff1}
+.number{
+ width:45px;height:45px;border-radius:50%;background:#6c2aa3;color:white;
+ display:flex;align-items:center;justify-content:center;margin:0 auto 12px;font-weight:900;font-size:1.2rem
+}
+.access{
+ display:grid;grid-template-columns:1fr 1fr;gap:22px
+}
+.access li{margin:12px 0;list-style:none}
+.access li::before{content:"✓";font-weight:900;color:#6c2aa3;margin-right:10px}
+.notice{
+ margin-top:35px;background:#fff4e8;border-left:5px solid #e77a16;padding:18px;border-radius:10px;
+}
+footer{background:#2d193a;color:#eee;text-align:center;padding:30px 7%;font-size:.92rem}
+@media(max-width:800px){
+ .hero{grid-template-columns:1fr;padding-top:45px}
+ .hero .phone{max-width:390px;margin:auto}
+ .cards,.how,.access{grid-template-columns:1fr}
+ nav{display:none}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="logo">🛡️ Rede Segura</div>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#funcoes">Funções</a>
+      <a href="#ajuda">Como ajuda</a>
+      <a href="#acessibilidade">Acessibilidade</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="sobre">
+  <div>
+    <span class="badge">Projeto escolar de acessibilidade e segurança</span>
+    <h1>Rede Segura</h1>
+    <p><strong>Denúncia Imediata</strong> é uma proposta de aplicativo criada para ajudar mulheres que passam por situações de importunação ou assédio sexual em espaços públicos.</p>
+    <p style="margin-top:12px">A ideia é facilitar o registro de ocorrências, ampliar o acesso à informação e criar uma rede de apoio, sempre priorizando segurança e acessibilidade.</p>
+    <a class="btn" href="#funcoes">Conheça as funções ↓</a>
+  </div>
+  <img class="phone" src="rede-segura.png" alt="Imagem do aplicativo Rede Segura mostrando a tela de Denúncia Imediata">
+</section>
+
+<section class="highlight" id="funcoes">
+  <div class="section-inner">
+    <h2 class="title">Conheça as funções do aplicativo</h2>
+    <p class="subtitle">Cada recurso foi pensado para tornar o acesso à ajuda e ao registro de situações de assédio mais simples e rápido.</p>
+
+    <div class="cards">
+      <article class="card">
+        <div class="icon">🚨</div>
+        <h3>Denúncia Imediata</h3>
+        <p>É o principal recurso da tela inicial. A proposta é permitir que a usuária acesse rapidamente uma opção para relatar uma situação de importunação ou assédio sexual.</p>
+      </article>
+
+      <article class="card">
+        <div class="icon">📷</div>
+        <h3>Registrar Ocorrência</h3>
+        <p>Permite registrar informações sobre o ocorrido, como descrição e, quando for seguro e apropriado, foto ou vídeo. O objetivo é organizar o relato para facilitar seu encaminhamento.</p>
+      </article>
+
+      <article class="card">
+        <div class="icon">📰</div>
+        <h3>Feed de Denúncias</h3>
+        <p>Apresenta relatos da comunidade. A proposta é compartilhar informações de forma responsável e, no conceito do projeto, permitir denúncias anônimas para proteger a identidade das usuárias.</p>
+      </article>
+
+      <article class="card">
+        <div class="icon">📍</div>
+        <h3>Locais Seguros</h3>
+        <p>Área pensada para indicar locais onde a pessoa pode procurar apoio, como pontos de atendimento e espaços parceiros. Isso pode ajudar alguém a encontrar um lugar de apoio quando estiver em uma situação desconfortável.</p>
+      </article>
+
+      <article class="card">
+        <div class="icon">☎️</div>
+        <h3>Ajuda Emergencial (180)</h3>
+        <p>Atalho para informações sobre o Ligue 180, canal oficial brasileiro de atendimento e orientação relacionado à violência contra a mulher. Em uma situação de emergência, também é importante procurar os serviços de emergência adequados.</p>
+      </article>
+
+      <article class="card">
+        <div class="icon">🏠</div>
+        <h3>Tela Inicial</h3>
+        <p>Reúne os recursos principais em um único lugar, diminuindo a quantidade de etapas necessárias para encontrar uma função importante.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="ajuda">
+  <div class="section-inner">
+    <h2 class="title">Como o Rede Segura pode ajudar?</h2>
+    <p class="subtitle">O projeto busca unir informação, acessibilidade e apoio em uma experiência simples.</p>
+    <div class="how">
+      <div class="step"><div class="number">1</div><h3>Identificar</h3><p>A usuária encontra rapidamente a opção adequada para a situação.</p></div>
+      <div class="step"><div class="number">2</div><h3>Registrar</h3><p>Ela pode organizar os detalhes da ocorrência de maneira simples.</p></div>
+      <div class="step"><div class="number">3</div><h3>Buscar apoio</h3><p>O aplicativo apresenta caminhos para informação e serviços de apoio.</p></div>
+    </div>
+
+    <div class="notice">
+      <strong>Importante:</strong> este site é uma apresentação de um projeto escolar. Ele não recebe denúncias reais nem substitui serviços públicos, polícia ou atendimento de emergência. Em uma situação de risco, a prioridade deve ser buscar um local seguro e ajuda de pessoas ou serviços confiáveis.
+    </div>
+  </div>
+</section>
+
+<section class="highlight" id="acessibilidade">
+  <div class="section-inner">
+    <h2 class="title">Acessibilidade como prioridade</h2>
+    <p class="subtitle">Além da segurança, o projeto considera que diferentes pessoas precisam conseguir acessar as informações.</p>
+    <div class="access">
+      <div class="card">
+        <h3>♿ Recursos pensados para acessibilidade</h3>
+        <ul>
+          <li>Navegação simples e organizada.</li>
+          <li>Textos claros e objetivos.</li>
+          <li>Contraste entre fundo e conteúdo.</li>
+          <li>Botões e áreas de toque grandes.</li>
+          <li>Estrutura compatível com navegação por teclado.</li>
+          <li>Descrição alternativa para a imagem do aplicativo.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>💜 Impacto social</h3>
+        <p>O Rede Segura mostra como a tecnologia pode ser utilizada para facilitar o acesso à informação e criar ferramentas de apoio. A proposta também incentiva uma cultura de respeito e conscientização sobre assédio e importunação sexual.</p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <p><strong>Rede Segura — Denúncia Imediata</strong></p>
+  <p>Projeto escolar sobre acessibilidade, tecnologia e segurança.</p>
+</footer>
+
+</body>
+</html>
